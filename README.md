@@ -5,7 +5,7 @@ A Vue Wrapper to [GaugeJS](https://github.com/bernii/gauge.js/)
 
 ### Installing
 
-```js
+```
 npm i vgauge --save
 ```
 
@@ -46,7 +46,7 @@ You can use the following props
 
 ## Authors
 
-* **Amr Essam** - [PurpleBooth](https://github.com/amroessam)
+* **Amr Essam** - [My Github](https://github.com/amroessam)
 
 ## License
 
