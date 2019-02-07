@@ -1,8 +1,8 @@
 <template>
   <div>
-    <p id="gauge-value" v-if="top" :class="gaugeValueClass"></p>
-    <canvas id="gauge" ref="gauge"></canvas>
-    <p id="gauge-value" v-if="!top" :class="gaugeValueClass"></p>
+    <p ref="gauge-value" v-if="top" :class="gaugeValueClass"></p>
+    <canvas ref="gauge"></canvas>
+    <p ref="gauge-value" v-if="!top" :class="gaugeValueClass"></p>
   </div>
 </template>
 
@@ -87,7 +87,7 @@ export default {
       this.gauge.animationSpeed = this.animationSpeed;
       this.gauge.setOptions(this.options);
       this.gauge.setTextField(
-        document.getElementById("gauge-value"),
+        this.$refs['gauge-value'],
         this.decimalPlace
       );
       this.gauge.set(this.value);
