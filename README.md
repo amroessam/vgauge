@@ -46,7 +46,7 @@ You can use the following props
 
 ## Authors
 
-* **Amr Essam** - [My Github](https://github.com/amroessam)
+* **Amr Essam** - [Github](https://github.com/amroessam)
 
 ## License
 
