@@ -1,10 +1,14 @@
 <template>
   <div>
-    <span ref="gauge-value" v-if="top" :class="gaugeValueClass"></span>
-    <span v-if="top" :class="gaugeValueClass">{{unit}}</span>
+    <div class="gauge-title">
+      <span ref="gauge-value" v-if="top" :class="gaugeValueClass"></span>
+      <span v-if="top" :class="gaugeValueClass">{{unit}}</span>
+    </div>
     <canvas ref="gauge" :height="height"></canvas>
-    <span ref="gauge-value" v-if="!top" :class="gaugeValueClass"></span>
-    <span v-if="!top" :class="gaugeValueClass">{{unit}}</span>
+    <div class="gauge-title">
+      <span ref="gauge-value" v-if="!top" :class="gaugeValueClass"></span>
+      <span v-if="!top" :class="gaugeValueClass">{{unit}}</span>
+    </div>
   </div>
 </template>
 
@@ -105,3 +109,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+  .gauge-title span{
+    display: inline;
+    text-align: center;
+  }
+</style>
