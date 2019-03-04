@@ -1,6 +1,6 @@
 {
   "name": "vgauge",
-  "version": "1.1",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/VGauge.umd.js",
   "module": "dist/VGauge.esm.js",
