@@ -1,7 +1,7 @@
 <template>
   <div>
     <p ref="gauge-value" v-if="top" :class="gaugeValueClass"></p>
-    <canvas ref="gauge"></canvas>
+    <canvas ref="gauge" :height="height"></canvas>
     <p ref="gauge-value" v-if="!top" :class="gaugeValueClass"></p>
   </div>
 </template>
@@ -11,6 +11,10 @@ import { Gauge } from "gaugeJS/dist/gauge.min";
 export default {
   name: 'VGauge',
   props: {
+    height: {
+      type: String,
+      default: '200px'
+    },
     decimalPlace: {
       type: Number,
       default: 0
