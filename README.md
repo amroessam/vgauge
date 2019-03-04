@@ -43,7 +43,7 @@ You can use the following props
 | maxValue        | Max value for the gauge to display | Number | 100 |
 | decimalPlace        | Show decimal place values to which extent | Number | 0 |
 | top        | To have the gauge value on top of the gauge | Boolean | false |
-| gaugeValueClass        | Class to apply to gauge value | String | * |
+| gaugeValueClass        | Class to apply to gauge value (Must use [/deep/](https://vue-loader.vuejs.org/guide/scoped-css.html#deep-selectors) in css selector)| String | * |
 | animationSpeed        | Animation speed for gauge | Number | 10 |
 
 ## Authors
