@@ -1,6 +1,8 @@
 # vgauge
 
 A Vue Wrapper to [GaugeJS](https://github.com/bernii/gauge.js/)
+
+### Play
 [Live Demo](https://jz3qoxny63.codesandbox.io/) 
 
 ### Installing
