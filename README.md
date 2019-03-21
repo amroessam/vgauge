@@ -1,4 +1,4 @@
-# vgauge
+# vgauge ![npm](https://img.shields.io/npm/v/vgauge.svg)
 
 A Vue Wrapper to [GaugeJS](https://github.com/bernii/gauge.js/)
 
@@ -19,16 +19,16 @@ export default {
   components: {
     VGauge
   },
-  data(){
-    return{
-      x:35
+  data() {
+    return {
+      value: 35
     }
   }
 }
 ```
 
 ```html
-<v-gauge :value="x"/>
+<v-gauge :value="value"/>
 ```
 
 ## Props
