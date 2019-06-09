@@ -32,7 +32,7 @@
     "description": "Show decimal place values to which extent"
   },
   "v-gauge/top": {
-    "type": "boolean",
+    "type": "flag",
     "description": "To have the gauge value on top of the gauge"
   },
   "v-gauge/gaugeValueClass": {
