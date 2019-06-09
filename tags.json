@@ -1,0 +1,17 @@
+{
+  "v-gauge": {
+    "attributes": [
+      "options",
+      "height",
+      "unit",
+      "initialValue",
+      "value",
+      "minValue",
+      "maxValue",
+      "decimalPlace",
+      "top",
+      "gaugeValueClass",
+      "animationSpeed"
+    ]
+  }
+}
