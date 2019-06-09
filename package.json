@@ -1,6 +1,6 @@
 {
   "name": "vgauge",
-  "version": "1.2.5",
+  "version": "1.2.5-rc.1",
   "description": "",
   "main": "dist/VGauge.umd.js",
   "module": "dist/VGauge.esm.js",
@@ -11,7 +11,8 @@
   "files": [
     "dist/*",
     "src/*",
-    "attributes.json"
+    "attributes.json",
+    "tags.json"
   ],
   "vetur": {
     "tags": "tags.json",
