@@ -16,7 +16,7 @@ or
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vgauge/dist/VGauge.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vgauge@latest"></script>
 ```
 
 ### Usage
