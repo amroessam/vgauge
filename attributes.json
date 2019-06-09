@@ -1,0 +1,46 @@
+{
+  "v-gauge/options": {
+    "type": "object",
+    "description": "GaugeJS render options, check gaugejs api http://bernii.github.io/gauge.js/"
+  },
+  "v-gauge/height": {
+    "type": "string",
+    "description": "height of the gauge in pixels"
+  },
+  "v-gauge/unit": {
+    "type": "string",
+    "description": "unit to show after value"
+  },
+  "v-gauge/initialValue": {
+    "type": "number",
+    "description": "Initial value to display on the Gauge"
+  },
+  "v-gauge/value": {
+    "type": "number",
+    "description": "Value to display/watch"
+  },
+  "v-gauge/minValue": {
+    "type": "number",
+    "description": "Min value for the gauge to display"
+  },
+  "v-gauge/maxValue": {
+    "type": "number",
+    "description": "Max value for the gauge to display"
+  },
+  "v-gauge/decimalPlace": {
+    "type": "number",
+    "description": "Show decimal place values to which extent"
+  },
+  "v-gauge/top": {
+    "type": "boolean",
+    "description": "To have the gauge value on top of the gauge"
+  },
+  "v-gauge/gaugeValueClass": {
+    "type": "number",
+    "description": "Class to apply to gauge value (Must use /deep/ in css selector)"
+  },
+  "v-gauge/animationSpeed": {
+    "type": "number",
+    "description": "Animation speed for gauge"
+  }
+}

@@ -77,7 +77,7 @@ You can use the following props
 | Name            | Description                                                                                                                          |    Type |              Default |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------: | -------------------: |
 | options         | GaugeJS render options, check gaugejs [API](http://bernii.github.io/gauge.js/)                                                       |  Object | Basic gaugejs Object |
-| height          | height of the gauge                                                                                                                  |  string |                200px |
+| height          | height of the gauge in pixels                                                                                                                  |  string |                200px |
 | unit            | unit to show after value                                                                                                             |  string |                   '' |
 | initialValue    | Initial value to display on the Gauge                                                                                                |  Number |                    0 |
 | value           | Value to display/watch                                                                                                               |  Number |                   50 |

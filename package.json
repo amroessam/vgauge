@@ -12,6 +12,9 @@
     "dist/*",
     "src/*"
   ],
+  "vetur": {
+    "attributes": "attributes.json"
+  },
   "scripts": {
     "build": "npm run build:unpkg & npm run build:es & npm run build:umd",
     "build:umd": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format umd --file dist/VGauge.umd.js",
