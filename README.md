@@ -77,8 +77,9 @@ You can use the following props
 | Name            | Description                                                                                                                          |    Type |              Default |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------: | -------------------: |
 | options         | GaugeJS render options, check gaugejs [API](http://bernii.github.io/gauge.js/)                                                       |  Object | Basic gaugejs Object |
-| height          | height of the gauge in pixels                                                                                                                  |  string |                200px |
-| unit            | unit to show after value                                                                                                             |  string |                   '' |
+| donut           | Renders a donut instead of a gauge [#3](https://github.com/amroessam/vgauge/issues/3#issue-482228167)                                | Boolean |                false |
+| height          | height of the gauge in pixels                                                                                                        |  String |                200px |
+| unit            | unit to show after value                                                                                                             |  String |                   '' |
 | initialValue    | Initial value to display on the Gauge                                                                                                |  Number |                    0 |
 | value           | Value to display/watch                                                                                                               |  Number |                   50 |
 | minValue        | Min value for the gauge to display                                                                                                   |  Number |                    0 |

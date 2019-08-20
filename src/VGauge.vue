@@ -13,17 +13,17 @@
 </template>
 
 <script>
-import { Gauge } from "gaugeJS/dist/gauge.min";
+import { Gauge, Donut } from "gaugeJS/dist/gauge.min";
 export default {
-  name: 'VGauge',
+  name: "VGauge",
   props: {
     unit: {
       type: String,
-      default: ''
+      default: ""
     },
     height: {
       type: String,
-      default: '200px'
+      default: "200px"
     },
     decimalPlace: {
       type: Number,
@@ -78,6 +78,10 @@ export default {
     value: {
       type: Number,
       default: 50
+    },
+    donut: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
@@ -95,15 +99,14 @@ export default {
   },
   methods: {
     initializeGauge() {
-      this.gauge = new Gauge(this.$refs.gauge);
+      this.gauge = this.donut
+        ? new Donut(this.$refs.gauge)
+        : new Gauge(this.$refs.gauge);
       this.gauge.maxValue = this.maxValue;
       this.gauge.setMinValue(this.minValue);
       this.gauge.animationSpeed = this.animationSpeed;
       this.gauge.setOptions(this.options);
-      this.gauge.setTextField(
-        this.$refs['gauge-value'],
-        this.decimalPlace
-      );
+      this.gauge.setTextField(this.$refs["gauge-value"], this.decimalPlace);
       this.gauge.set(this.value);
     }
   }
@@ -111,8 +114,8 @@ export default {
 </script>
 
 <style scoped>
-  .gauge-title span{
-    display: inline;
-    text-align: center;
-  }
+.gauge-title span {
+  display: inline;
+  text-align: center;
+}
 </style>
