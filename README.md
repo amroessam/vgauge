@@ -1,7 +1,8 @@
 # vgauge ![npm](https://img.shields.io/npm/v/vgauge.svg)
 
 A Vue Wrapper to [GaugeJS](https://github.com/bernii/gauge.js/)
-If this package helps you, consider buying me a beer 😁
+
+# If this package helps you, consider buying me a beer 😁
 
 # [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/amroessam/5)
 
@@ -27,17 +28,17 @@ or
 ## By Importing
 
 ```js
-import VGauge from "vgauge";
+import VGauge from 'vgauge';
 
 export default {
   components: {
-    VGauge
+    VGauge,
   },
   data() {
     return {
-      value: 35
+      value: 35,
     };
-  }
+  },
 };
 ```
 
@@ -56,10 +57,10 @@ export default {
 </div>
 <script>
   var app = new Vue({
-    el: "#app",
+    el: '#app',
     data: {
       x: 0,
-      y: 0
+      y: 0,
     },
     mounted() {
       setInterval(() => {
@@ -68,7 +69,7 @@ export default {
       setInterval(() => {
         if (this.y < 100) this.y += 5;
       }, 1000);
-    }
+    },
   });
 </script>
 ```
