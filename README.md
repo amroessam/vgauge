@@ -2,9 +2,9 @@
 
 A Vue Wrapper to [GaugeJS](https://github.com/bernii/gauge.js/)
 
-# If this package helps you, consider buying me a beer 😁
+### If this package helps you, consider buying me a beer 😁
 
-# [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/amroessam/5)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/amroessam/5)
 
 ### Play
 
