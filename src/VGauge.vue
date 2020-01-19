@@ -4,7 +4,7 @@
       <span ref="gauge-value" v-if="top" :class="gaugeValueClass"></span>
       <span v-if="top" :class="gaugeValueClass">{{unit}}</span>
     </div>
-    <canvas ref="gauge" :height="height"></canvas>
+    <canvas ref="gauge" :height="height" :width="width"></canvas>
     <div class="gauge-title">
       <span ref="gauge-value" v-if="!top" :class="gaugeValueClass"></span>
       <span v-if="!top" :class="gaugeValueClass">{{unit}}</span>
@@ -22,6 +22,10 @@ export default {
       default: ""
     },
     height: {
+      type: String,
+      default: "200px"
+    },
+    width: {
       type: String,
       default: "200px"
     },
