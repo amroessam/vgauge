@@ -96,6 +96,9 @@ export default {
   mounted() {
     this.initializeGauge();
   },
+  beforeDestroy() {
+    delete this.gauge;
+  },
   watch: {
     value: function(newVal) {
       this.gauge.set(newVal);
