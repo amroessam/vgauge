@@ -1,6 +1,6 @@
 {
   "name": "vgauge",
-  "version": "1.2.12-rc2",
+  "version": "1.2.12-rc3",
   "description": "",
   "main": "dist/VGauge.umd.js",
   "module": "dist/VGauge.esm.js",
@@ -8,7 +8,12 @@
   "browser": {
     "./sfc": "src/VGauge.vue"
   },
-  "files": ["dist/*", "src/*", "attributes.json", "tags.json"],
+  "files": [
+    "dist/*",
+    "src/*",
+    "attributes.json",
+    "tags.json"
+  ],
   "vetur": {
     "tags": "tags.json",
     "attributes": "attributes.json"
@@ -35,7 +40,14 @@
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
   },
-  "keywords": ["vue", "gauge", "gauge.js", "gaugejs", "donut", "chart"],
+  "keywords": [
+    "vue",
+    "gauge",
+    "gauge.js",
+    "gaugejs",
+    "donut",
+    "chart"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
