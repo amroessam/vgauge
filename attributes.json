@@ -36,7 +36,7 @@
     "description": "To have the gauge value on top of the gauge"
   },
   "v-gauge/gaugeValueClass": {
-    "type": "number",
+    "type": "string",
     "description": "Class to apply to gauge value (Must use /deep/ in css selector)"
   },
   "v-gauge/animationSpeed": {
